@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="icon" href="/img/weather.png">
+</head>
+
+<body>
+    <div class="main-content">
+        {{!-- {{>header}} --}}
+        <h3>Enter City name to get current weather</h3>
+
+        <form>
+            <input placeholder="Location">
+            <button>Search</button>
+        </form>
+
+        <p id="error"></p>
+        <p id="valid"></p>
+    </div>
+    {{>footer}}
+    <script src="/js/app.js"></script>
+</body>
+</html>
